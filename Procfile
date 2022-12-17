@@ -1,0 +1,1 @@
+web: gunicorn tweets_search.wsgi --log-file -
