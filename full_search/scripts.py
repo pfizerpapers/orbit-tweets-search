@@ -49,7 +49,7 @@ def getTweetsFullArchive(query,lang,fromDate, toDate):
     bearer_token = "AAAAAAAAAAAAAAAAAAAAAA5chgEAAAAA73XpwdJWFyAei9XfNvs%2Fk1vTOws%3DNdKfgnK84FLwadYmIbbGRdr1JeW1aOtJSbCEUi9Rly85VqeM1w"
     header = {"Authorization": 'bearer ' + bearer_token}
 
-    if lang != '':
+    if lang != '-1':
         query = query + ' lang:'+lang
         
     # first execution without 'next' param
