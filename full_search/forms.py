@@ -1,7 +1,7 @@
 from django import forms
 
 languages =(
-    (" ", "Qualquer Idioma"),
+    ("-1", "Qualquer Idioma"),
     ("pt", "Portuguese"),
     ("en", "English"),
     ("es", "Spanish"),
